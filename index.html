@@ -3,22 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
-    <link rel="stylesheet" href="css/style.css">
-
+    <title>Mundo Moto | Pasión sobre dos ruedas</title>
+    <!-- Aquí se enlaza el archivo de estilos -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Bienvenidos a mi Sitio Web</h1>
+    <!-- Navegación principal -->
+    <header class="navbar">
+        <div class="logo">MUNDO<span>MOTO</span></div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#modelos">Modelos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main>
-        <p>Esta es la estructura base global. Aquí puedes empezar a meter tu propio contenido, textos, imágenes o formularios.</p>
-    </main>
+    <!-- Sección de Bienvenida (Hero) -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Siente la Verdadera Libertad</h1>
+            <p>Descubre las motocicletas más potentes, diseños exclusivos y la tecnología que redefine el asfalto.</p>
+            <a href="#modelos" class="btn">Ver Modelos</a>
+        </div>
+    </section>
 
+    <!-- Sección de Modelos Destacados -->
+    <section id="modelos" class="features">
+        <h2>Modelos Destacados</h2>
+        <div class="cards-container">
+            
+            <!-- Tarjeta 1 -->
+            <div class="card">
+                <div class="card-img img-deportiva"></div>
+                <h3>Deportivas</h3>
+                <p>Velocidad pura y aerodinámica diseñada para dominar los circuitos más exigentes del mundo.</p>
+            </div>
+
+            <!-- Tarjeta 2 -->
+            <div class="card">
+                <div class="card-img img-adventure"></div>
+                <h3>Adventure</h3>
+                <p>Explora cualquier terreno con la máxima comodidad, suspensión robusta y autonomía sin límites.</p>
+            </div>
+
+            <!-- Tarjeta 3 -->
+            <div class="card">
+                <div class="card-img img-classic"></div>
+                <h3>Clásicas</h3>
+                <p>Estilo retro atemporal combinado con ingeniería moderna para los amantes del buen gusto.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Pie de página -->
     <footer>
-        <p>&copy; 2026 - Creado por Cuellar</p>
+        <p>&copy; 2026 Mundo Moto. Todos los derechos reservados. Diseñado para entusiastas de las dos ruedas.</p>
     </footer>
 
 </body>
