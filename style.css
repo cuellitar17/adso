@@ -15,14 +15,14 @@ body {
     color: #ffffff;
 }
 
-/* Barra de navegación */
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 8%;
     background-color: #1a1a1a;
-    border-bottom: 3px solid #ff4500; /* Detalle naranja deportivo */
+    border-bottom: 3px solid #ff4500; 
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -58,10 +58,10 @@ nav ul li a:hover {
     color: #ff4500;
 }
 
-/* Sección Hero (Portada principal) */
+
 .hero {
     height: 80vh;
-    /* Imagen de fondo genérica de asfalto/motos vía Unsplash */
+    
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
                 url('https://unsplash.com') no-repeat center center/cover;
     display: flex;
@@ -100,7 +100,7 @@ nav ul li a:hover {
     transform: scale(1.05);
 }
 
-/* Sección de Tarjetas de Modelos */
+
 .features {
     padding: 60px 8%;
     text-align: center;
@@ -142,7 +142,7 @@ nav ul li a:hover {
     transform: translateY(-10px);
 }
 
-/* Imágenes de las tarjetas usando fotografías reales de motos */
+
 .card-img {
     height: 200px;
     background-size: cover;
@@ -173,7 +173,7 @@ nav ul li a:hover {
     line-height: 1.5;
 }
 
-/* Pie de página */
+
 footer {
     background-color: #0d0d0d;
     text-align: center;
